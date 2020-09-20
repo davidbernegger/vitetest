@@ -1,0 +1,15 @@
+{
+	"parserOptions": {
+		"ecmaVersion": 2019
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:vue/vue3-recommended"
+	],
+	"rules": {
+		"semi": ["error", "never"],
+		"quotes": ["error", "single"],      
+		"indent": ["error", "tab"]
+	},
+    "ignorePatterns": ["index.html"]
+}
